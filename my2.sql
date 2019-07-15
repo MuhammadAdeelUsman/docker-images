@@ -188,5 +188,5 @@ ALTER EVENT collect_daily_stats ENABLE;
 set sql_log_bin = 1;
 
 -- Use a specific user (suggested)
--- create user my2@'%' identified by 'P1e@seCh@ngeMe';
--- grant all on my2.* to my2@'%';
+ create user my2@'%' identified by 'P1e@seCh@ngeMe';
+ grant all on my2.* to my2@'%';
